@@ -6,11 +6,20 @@ Send SMS notification to selected people that want to join a BigBlueButton confe
 Explanation
 ===========
 
-I have a group of people that want to meet on Wednesday night, but prefer to use the phone.
+I have a group of leaders of a small charity that want to meet once a month on a Wednesday night, but prefer to use the phone.
 
 One person has to open the BigBlueButton conference room manually, and stay in the conference room.
 
 Then a cronjob will check, if the conference room is open, and send the phone number and phone code to a list of mobile phone numbers.
+
+Services and libraries used
+===========================
+
+[BigBlueButton](https://bigbluebutton.org/) is a conference tool. We use the service [BBB Meeting](https://www.hostsharing.net/bigbluebutton/bbb-meeting/) provided by [Hostsharing eG](https://www.hostsharing.net).
+
+We use the library [bigbluebutton-api-python](https://pypi.org/project/bigbluebutton-api-python/) for talking to the BBB API.
+
+We use the service from [sms77](https://www.sms77.io) to send out SMS.
 
 Installation
 ============
