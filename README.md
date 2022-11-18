@@ -1,6 +1,11 @@
 Purpose
 =======
 
+Send SMS notification to selected people that want to join a BigBlueButton conference over the phone
+
+Explanation
+===========
+
 I have a group of people that want to meet on Wednesday night, but prefer to use the phone.
 
 One person has to open the BigBlueButton conference room manually, and stay in the conference room.
